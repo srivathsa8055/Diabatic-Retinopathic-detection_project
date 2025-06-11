@@ -29,19 +29,7 @@ Diabetic Retinopathy (DR) is a complication of diabetes that can lead to blindne
 - Images were augmented (rotation, zoom, flipping) and normalized for training.
 - Labels correspond to 5 DR severity classes.
 
-## 🏗️ Project Structure
 
-```
-├── data/                   # Retinal fundus images
-├── models/                 # Trained model checkpoints
-├── notebooks/              # Training and evaluation notebooks
-├── results/                # Predicted samples and metrics
-├── dr_model.py             # ConvNeXt-Tiny model definition
-├── train.py                # Training script using FastAI
-├── infer.py                # Inference on new images
-├── requirements.txt        # Python dependencies
-└── README.md               # Project overview
-```
 
 ## ⚙️ How to Run
 
